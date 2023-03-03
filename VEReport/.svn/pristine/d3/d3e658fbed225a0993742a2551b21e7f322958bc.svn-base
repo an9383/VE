@@ -1,0 +1,4 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ucDashboardView.ascx.cs" Inherits="TabsContent_ucDashboardView" ClientIDMode="Static" %>
+<%@ Register assembly="DevExpress.Dashboard.v22.1.Web.WebForms, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.DashboardWeb" tagprefix="dx" %>
+                            <dx:ASPxDashboard ID="WebDashboard" runat="server" ClientInstanceName="WebDashboard" WorkingMode="ViewerOnly" OnConfigureDataConnection="WebDashboard_ConfigureDataConnection" Height="100%" ClientIDMode="Static" OnDashboardLoading="WebDashboard_DashboardLoading">
+                            </dx:ASPxDashboard>

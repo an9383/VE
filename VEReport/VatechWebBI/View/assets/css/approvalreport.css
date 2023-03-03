@@ -1,0 +1,69 @@
+﻿body {
+}
+
+html, body, h1, h2, h3, h4, h5, h6, span, a {
+    font-family: 'Malgun Gothic', '맑은 고딕', Dotum, '돋움', Gulim, '굴림', Verdana, Arial, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 14px;
+}
+
+a {
+    background: transparent;
+}
+
+    a:hover {
+        font-weight: bold;
+        color: #333;
+    }
+
+        a:hover, a:hover .text-underline {
+            text-decoration: none;
+        }
+
+.innerT {
+    padding-top: 10px;
+    position: relative;
+}
+
+.innerLR {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+
+.table > tbody > tr > th, .table > tbody > tr > td {
+    width: auto;
+    font-size: .8em;
+    padding: 10px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .table > tbody > tr > td > table > tbody > tr > td > input[type="text"].dxeEditArea_ThemeCoral {
+        font-size: .9em;
+    }
+
+    .table > tbody > tr > td.valigntop {
+        vertical-align: top;
+        padding: 1px 5px 0px;
+    }
+
+input.form-control {
+    font-size: 12px;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.valigncenter {
+    vertical-align: middle !important;
+}
+
+label, .btn, i {
+    font-size: 12px;
+    vertical-align: middle;
+}

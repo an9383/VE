@@ -1,0 +1,26 @@
+﻿using DevExpress.XtraEditors;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace VTMES3_RE.View.DeliveryIssue
+{
+    public partial class DeliveryIssue : DevExpress.XtraEditors.XtraForm
+    {
+        public DeliveryIssue()
+        {
+            InitializeComponent();
+        }
+
+        private void DeliveryIssue_Load(object sender, EventArgs e)
+        {
+            this.deliveryIssueTableAdapter.Fill(iFVEDataSet.DeliveryIssue);
+        }
+    }
+}
